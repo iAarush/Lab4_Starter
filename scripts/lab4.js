@@ -11,7 +11,7 @@ function sumValues(num1, num2, add) {
         typeof add !== 'boolean') {
       return false;
     }
-    
+
     if (add) {
         let result = 0;
 
@@ -20,7 +20,7 @@ function sumValues(num1, num2, add) {
         return result;
     }
     else {
-        return !add;
+        return add; //false
     }
 }
 
